@@ -18,4 +18,4 @@
 
 ## 例子
 （我实在是没什么可说的了。。。）
-![小息的例子](examples/Screenshot 2023-12-14 at 01-58-17 Screenshot.png)
+![小息的例子](examples/Screenshot%202023-12-14%20at%2001-58-17%20Screenshot.png)
