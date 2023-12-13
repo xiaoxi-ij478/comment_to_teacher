@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <style>
+            html {
+                background: #f5f5f5;
+                font-family: "Noto Sans CJK SC";
+            }
+            body {
+                margin: 0;
+            }
+            .introduce_h1, .introduce_h2 {
+                display: flex;
+                align-items: center;
+                margin: 10px 0;
+                border-radius: 3px;
+                border: 5px solid white;
+                background-color: white;
+            }
+            .introduce_h1 {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            #selection_bar_content span {
+                display: inline-block;
+                background-color: white;
+                width: 50%;
+                text-align: center;
+            }
+            .selection_bar_selected {
+                color: #4f90ae;
+                background-color: #4f90ae;
+            }
+            #selection_bar_indicator {
+                height: 3px;
+            }
+            #selection_bar_indicator span {
+                display: inline-block;
+                height: 100%;
+                width: 50%;
+            }
+            #comments {
+                background-color: #f5f5f5;
+                overflow: auto;
+            }
+            .comment {
+                padding: 5px 0 30px 0;
+                margin: 5px 0;
+                background-color: white;
+            }
+            .comment_profile {
+                margin: 0 10px 0 0;
+            }
+            .comment_info {
+                margin: 20px 10px;
+                display: flex;
+                justify-content: space-between;
+            }
+            .comment_info_1 {
+                display: flex;
+            }
+            .comment_other_info {
+                display: flex;
+                flex-direction: column;
+            }
+            .comment_date {
+                color: grey;
+            }
+            .comment_like {
+                display: flex;
+                align-content: center;
+            }
+            .comment_content {
+                margin: 0 0 0 60px;
+                font-size: 2em;
+            }
+        </style>
+    </head>
+    <body>
+        <article id="introduce">
+            <section class="introduce_h1">教师：</section>
+            <section class="introduce_h2">
+                <svg width="25.368431" height="23.999821" viewBox="0 0 25.368431 23.999821" style="margin-right: 5px">
+                    <g transform="translate(0.42338847, 0.46725559)">
+                        <g style="display: inline; fill: none; fill-opacity: 0.831068; fill-rule: evenodd; stroke-width: 2.93276; stroke-dasharray: none; paint-order: stroke fill markers" transform="matrix(0.68295971, 0, 0, 0.6823057, -19.590847, -21.328999)">
+                            <ellipse style="display: inline; stroke:#b3bb8c; stroke-width: 2.93276; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: none; stroke-opacity: 1; paint-order: stroke fill markers" cx="39.333546" cy="41.985806" rx="5.0433478" ry="4.9352636" />
+                            <path style="fill: none; stroke: #b3bb8c; stroke-width: 2.93276; stroke-linecap: butt; stroke-linejoin: miter; stroke-dasharray: none; stroke-opacity: 1; paint-order: stroke fill markers" d="m 36.414113,49.742407 c -6.026895,0 -6.852646,0.826381 -6.860502,2.808748 -0.0096,2.417316 -0.04408,5.552005 0,8.629382 0.02767,1.93205 1.320204,2.930692 6.911753,3.103732"/>
+                            <path style="fill: none; stroke: #b3bb8c; stroke-width: 2.93276; stroke-linecap: butt; stroke-linejoin: miter; stroke-dasharray: none; stroke-opacity: 1; paint-order: stroke fill markers" d="m 42.649106,49.736279 c 6.026895,0 7.156465,0.826381 7.164321,2.808748 0.0096,2.417316 0.04408,5.552005 0,8.629382 -0.02767,1.93205 -1.55835,2.740459 -7.149899,2.913499"/>
+                            <path style="fill: none; stroke: #b3bb8c; stroke-width: 2.93276; stroke-linecap: round; stroke-linejoin: miter; stroke-dasharray: none; stroke-opacity: 1; paint-order: stroke fill markers" d="M 47.830216,50.039747 52.4301,40.937735"/>
+                            <path style="fill: none; stroke: #b3bb8c; stroke-width: 2.93276; stroke-linecap: butt; stroke-linejoin: miter; stroke-dasharray: none; stroke-opacity: 1; paint-order: stroke fill markers" d="m 39.988212,37.271668 c 0,-5.354827 4.200118,-5.225237 4.200118,-5.225237 h 15.471332 c 0,0 4.075726,-0.316349 4.075726,4.480853 V 55.6545 c 0,0 0.243264,3.55109 -2.412425,3.55109 H 50.056795"/>
+                        </g>
+                    </g>
+                </svg>
+                课程简介
+            </section>
+            <section class="introduce_h2">
+                <svg width="19.918657" height="24.007839" viewBox="0 0 19.918658 24.00784" style="margin-right: 10px">
+                    <g transform="translate(0.42241833, 0.46821974)">
+                        <g transform="matrix(0.75988909, 0, 0, 0.75975398, -23.152685, -61.357246)" style="stroke-width: 2.63219; stroke-dasharray: none">
+                            <circle style="display: inline; fill: none; fill-opacity: 0.831068; fill-rule: evenodd; stroke: #c2b69c; stroke-width: 2.63219; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: none; stroke-opacity: 1; paint-order: fill markers stroke" cx="43.064262" cy="88.293098" r="6.8339205" />
+                            <path style="fill: none; stroke: #c2b69c; stroke-width: 2.63219; stroke-linecap: square; stroke-linejoin: round; stroke-dasharray: none; stroke-opacity: 1" d="M 43.423728,110.42648 H 31.800879 c 0,0 -4.32888,-13.242883 10.88535,-15.112039" />
+                            <path style="fill: none; stroke: #c2b69c; stroke-width: 2.63219; stroke-linecap: butt; stroke-linejoin: miter; stroke-dasharray: none; stroke-opacity: 1" d="m 47.029163,99.729731 h 9.096034" />
+                            <path style="fill: none; stroke: #c2b69c; stroke-width: 2.63219; stroke-linecap: butt; stroke-linejoin: miter; stroke-dasharray: none; stroke-opacity: 1" d="M 51.711616,99.757372 V 111.39083" />
+                        </g>
+                    </g>
+                </svg>
+                教师简介
+            </section>
+        </article>
+        <article id="selection_bar">
+            <section id="selection_bar_content">
+                <span class="selection_bar_selected">课程评论</span><span>教学反馈</span>
+            </section>
+            <section id="selection_bar_indicator">
+                <span class="selection_bar_selected">&nbsp;</span><span></span>
+            </section>
+        </article>
+        <article id="comments">
+            <!--
+            模板: 
+            <section class="comment">
+                <section class="comment_info">
+                    <span class="comment_info_1">
+                        <svg width="39.735374" height="39.999981" viewBox="0 0 39.735376 39.999982" class="comment_profile">
+                            <g transform="translate(0.42247094,0.46816214)">
+                                <g style="display:inline;stroke-width:2.71569" transform="matrix(1.3907728,0,0,1.3926111,-116.62801,-102.60984)">
+                                    <ellipse style="display:inline;fill:#71bff3;fill-opacity:1;fill-rule:evenodd;stroke:#71a2f3;stroke-width:0.646694;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke" cx="97.840012" cy="87.706947" rx="13.962011" ry="14.038157" />
+                                    <ellipse style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.72468;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke" cx="97.82531" cy="84.575073" rx="6.202467" ry="6.6874166" />
+                                    <path style="display:inline;fill:white;fill-opacity:1;stroke:none;stroke-width:0.718549px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" d="m 87.093211,95.663321 c 7.434156,9.496909 19.150309,4.489389 21.212469,0.333333 -0.008,0.04465 -0.47204,-3.888095 -6.26631,-5.285074 -4.314439,3.931419 -8.455712,0.0207 -8.40464,0.132628 -0.02992,0.06952 -4.155799,-0.56359 -6.541519,4.819113 z" />
+                                </g>
+                            </g>
+                        </svg>
+                        <span class="comment_info_2">
+                            <section class="comment_username"> 用户名 </section>
+                            <section class="comment_date"> 时间 </section>
+                        </span>
+                    </span>
+                    <span class="comment_like">
+                        <svg width="25.125456" height="23.99995" viewBox="0 0 25.125457 23.999951">
+                            <g transform="translate(0.42247092,0.46816038)">
+                                <path style="display:inline;fill:none;stroke:black;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:2.9;stroke-dasharray:none;stroke-opacity:1" d="m 5.9491051,9.4119342 4.091e-4,12.8645518 m 13.8838888,0.0051 H 2.3140162 c 0,0 -1.48648712,0.06687 -1.48648712,-1.78174 V 10.242349 c 0,-0.7977484 1.03662792,-0.8341063 1.03662792,-0.8341063 H 5.9526926 7.9890227 C 9.8856294,6.71053 10.969006,3.9748443 11.697797,2.5749534 c 1.398204,-2.68570562 4.79341,-2.2042789 5.086156,0.4360233 0.195533,1.7635519 -2.277904,6.262714 -2.277904,6.262714 h 8.125445 c 1.257842,0 0.696155,1.6760293 0.696155,1.6760293 l -1.829096,9.453499 c -0.226759,1.195556 -0.96555,1.854703 -1.665157,1.878395 z"/>
+                            </g>
+                        </svg>
+                        <span> 点赞数 </span>
+                    </span>
+                </section>
+                <span class="comment_content"> 你要说的话 </span>
+            </section>
+            -->
+            <section class="comment">
+                <section class="comment_info">
+                    <span class="comment_info_1">
+                        <svg width="39.735374" height="39.999981" viewBox="0 0 39.735376 39.999982" class="comment_profile">
+                            <g transform="translate(0.42247094,0.46816214)">
+                                <g style="display:inline;stroke-width:2.71569" transform="matrix(1.3907728,0,0,1.3926111,-116.62801,-102.60984)">
+                                    <ellipse style="display:inline;fill:#71bff3;fill-opacity:1;fill-rule:evenodd;stroke:#71a2f3;stroke-width:0.646694;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke" cx="97.840012" cy="87.706947" rx="13.962011" ry="14.038157" />
+                                    <ellipse style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.72468;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke" cx="97.82531" cy="84.575073" rx="6.202467" ry="6.6874166" />
+                                    <path style="display:inline;fill:white;fill-opacity:1;stroke:none;stroke-width:0.718549px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" d="m 87.093211,95.663321 c 7.434156,9.496909 19.150309,4.489389 21.212469,0.333333 -0.008,0.04465 -0.47204,-3.888095 -6.26631,-5.285074 -4.314439,3.931419 -8.455712,0.0207 -8.40464,0.132628 -0.02992,0.06952 -4.155799,-0.56359 -6.541519,4.819113 z" />
+                                </g>
+                            </g>
+                        </svg>
+                        <span class="comment_info_2">
+                            <section class="comment_username">***</section>
+                            <section class="comment_date">2023-03-01 21:10:42</section>
+                        </span>
+                    </span>
+                    <span class="comment_like">
+                        <svg width="25.125456" height="23.99995" viewBox="0 0 25.125457 23.999951">
+                            <g transform="translate(0.42247092,0.46816038)">
+                                <path style="display:inline;fill:none;stroke:black;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:2.9;stroke-dasharray:none;stroke-opacity:1" d="m 5.9491051,9.4119342 4.091e-4,12.8645518 m 13.8838888,0.0051 H 2.3140162 c 0,0 -1.48648712,0.06687 -1.48648712,-1.78174 V 10.242349 c 0,-0.7977484 1.03662792,-0.8341063 1.03662792,-0.8341063 H 5.9526926 7.9890227 C 9.8856294,6.71053 10.969006,3.9748443 11.697797,2.5749534 c 1.398204,-2.68570562 4.79341,-2.2042789 5.086156,0.4360233 0.195533,1.7635519 -2.277904,6.262714 -2.277904,6.262714 h 8.125445 c 1.257842,0 0.696155,1.6760293 0.696155,1.6760293 l -1.829096,9.453499 c -0.226759,1.195556 -0.96555,1.854703 -1.665157,1.878395 z"/>
+                            </g>
+                        </svg>
+                        <span>122</span>
+                    </span>
+                </section>
+                <span class="comment_content">老师真的是太棒了！！</span>
+            </section>
+            
+            <section class="comment">
+                <section class="comment_info">
+                    <span class="comment_info_1">
+                        <svg width="39.735374" height="39.999981" viewBox="0 0 39.735376 39.999982" class="comment_profile">
+                            <g transform="translate(0.42247094,0.46816214)">
+                                <g style="display:inline;stroke-width:2.71569" transform="matrix(1.3907728,0,0,1.3926111,-116.62801,-102.60984)">
+                                    <ellipse style="display:inline;fill:#71bff3;fill-opacity:1;fill-rule:evenodd;stroke:#71a2f3;stroke-width:0.646694;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke" cx="97.840012" cy="87.706947" rx="13.962011" ry="14.038157" />
+                                    <ellipse style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.72468;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke" cx="97.82531" cy="84.575073" rx="6.202467" ry="6.6874166" />
+                                    <path style="display:inline;fill:white;fill-opacity:1;stroke:none;stroke-width:0.718549px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" d="m 87.093211,95.663321 c 7.434156,9.496909 19.150309,4.489389 21.212469,0.333333 -0.008,0.04465 -0.47204,-3.888095 -6.26631,-5.285074 -4.314439,3.931419 -8.455712,0.0207 -8.40464,0.132628 -0.02992,0.06952 -4.155799,-0.56359 -6.541519,4.819113 z" />
+                                </g>
+                            </g>
+                        </svg>
+                        <span class="comment_info_2">
+                            <section class="comment_username">***</section>
+                            <section class="comment_date">2023-03-01 21:10:42</section>
+                        </span>
+                    </span>
+                    <span class="comment_like">
+                        <svg width="25.125456" height="23.99995" viewBox="0 0 25.125457 23.999951">
+                            <g transform="translate(0.42247092,0.46816038)">
+                                <path style="display:inline;fill:none;stroke:black;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:2.9;stroke-dasharray:none;stroke-opacity:1" d="m 5.9491051,9.4119342 4.091e-4,12.8645518 m 13.8838888,0.0051 H 2.3140162 c 0,0 -1.48648712,0.06687 -1.48648712,-1.78174 V 10.242349 c 0,-0.7977484 1.03662792,-0.8341063 1.03662792,-0.8341063 H 5.9526926 7.9890227 C 9.8856294,6.71053 10.969006,3.9748443 11.697797,2.5749534 c 1.398204,-2.68570562 4.79341,-2.2042789 5.086156,0.4360233 0.195533,1.7635519 -2.277904,6.262714 -2.277904,6.262714 h 8.125445 c 1.257842,0 0.696155,1.6760293 0.696155,1.6760293 l -1.829096,9.453499 c -0.226759,1.195556 -0.96555,1.854703 -1.665157,1.878395 z"/>
+                            </g>
+                        </svg>
+                        <span>122</span>
+                    </span>
+                </section>
+                <span class="comment_content">老师真的是太棒了！！</span>
+            </section>
+        </article>
+    </body>
+</html>
